@@ -371,6 +371,7 @@ running options.
    The easiest way to get a working db is to run
 	```
    cargo install sqlx-cli
+   cd backend
    env DATABASE_URL=<YOUR_DATABASE_URL> sqlx migrate run
 	```
    This will also avoid compile time issue with sqlx's `query!` macro
